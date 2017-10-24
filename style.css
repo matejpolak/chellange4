@@ -1,0 +1,28 @@
+.mp-border {
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.wrapper {
+    display: none;
+}
+.cover img {
+    height: 100%;
+}
+.book {
+    position: relative;
+}
+.images,
+.text_and_choices {
+    position: absolute;
+    top: 110px;
+    width: 40%;
+}
+
+.images {
+    left: 100px;
+}
+.text_and_choices {
+    left: 730px;
+    max-height: 700px;
+    overflow: scroll;
+}
